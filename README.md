@@ -3,7 +3,7 @@ This library contains boundaries published by the [U.S. Census Bureau](https://w
 Since all files are already in JSON format, you just need to require them as follows:
 
 ```javascript
-require(`census-topologies/types/${NAME}`)
+let topology = require(`census-topologies/types/${NAME}`)
 ```
 
 where `NAME` is one of the following:
