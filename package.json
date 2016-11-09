@@ -1,8 +1,14 @@
 {
   "name": "census-topologies",
   "version": "2015.0.0",
-  "license": "MIT",
+  "description": "Topologies from the U.S. Census Bureau",
   "files": ["types"],
+  "repository": {
+    "url": "https://github.com/jed/census-topologies.git",
+    "type": "git"
+  },
+  "author": "Jed Schmidt <where@jed.is>",
+  "license": "MIT",
   "dependencies": {
     "shapefile": "^0.5.8",
     "topojson": "^2.0.0"
