@@ -1,13 +1,10 @@
-# census-topologies
-
-This library contains boundaries published by the [U.S. Census Bureau](https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html). [All boundaries](http://www2.census.gov/geo/tiger/GENZ2015/) available at 1:500,000 resolution have been aggregated by type, quantized (to `100000`), and converted into [TopoJSON](https://github.com/topojson/topojson) files, with all properties by but `GEOID`s stripped.
-
-API
----
+This library contains boundaries published by the [U.S. Census Bureau](https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html). [All boundaries](http://www2.census.gov/geo/tiger/GENZ2015/) available at 1:500,000 resolution have been aggregated by type, quantized (to `100000`), and converted into [TopoJSON](https://github.com/topojson/topojson) files, with all properties omitted (save for the `GEOID` property, which is added as the `id` for each geometry).
 
 Since all files are already in JSON format, you just need to require them as follows:
 
-    require(`census-topologies/types/${NAME}`)
+```javascript
+require(`census-topologies/types/${NAME}`)
+```
 
 where `NAME` is one of the following:
 
