@@ -14,6 +14,8 @@ where `NAME` is one of the following:
 - `cbsa` (Metropolitan Statistical Area / Micropolitan Statistical Area)
 - `cd114` (Congressional District)
 - `concity` (Consolidated City)
+- `county_within_cd114` (County Within Congressional District)
+- `county_within_ua` (County Within Urban Area)
 - `county` (County)
 - `cousub` (County Subdivision)
 - `csa` (Combined Statistical Area)
