@@ -1,6 +1,6 @@
 {
   "name": "census-topologies",
-  "version": "2015.0.1",
+  "version": "2015.0.2",
   "description": "Topologies from the U.S. Census Bureau",
   "files": [
     "types"
