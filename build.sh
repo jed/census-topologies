@@ -1,7 +1,7 @@
 #!/bin/sh
 
-mkdir -p build types
-cd build
+mkdir -p types /tmp/census-topologies
+cd /tmp/census-topologies
 
 curl -s 'ftp://ftp2.census.gov/geo/tiger/GENZ2015/shp/' |
   grep '_500k.zip$' |
